@@ -70,3 +70,10 @@ th, td {
   padding: 8px 12px;
   text-align: left;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
