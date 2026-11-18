@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs - Western University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="header-inner"> 
+            <a class="logo" href="index.html">Western University</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+            <label for="menu-toggle" class="menu-button">Menu</label>
+            <nav id="Main-nav" aria-label="Main">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="home.html">About</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="Admissions.html" class="active" aria-current="page">Admissions</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </header>
+    <main style="font-family: 'Times New Roman', Times, serif;">
+      <h1 style="margin-left: 10px;">Admissions</h1>
+      <h3 style="margin-left: 15px;">How to apply</h3>
+      <ol style="margin-left: 30px;">
+        <li>Choose your program</li>
+        <li>Complete the application form below</li>
+        <li>Upload your transcripts when we email you</li>
+        <li>Receive a decision with 3 weeks</li>
+      </ol>
+      <form id="apply-form" style="margin-left: 30%; margin-top: 30px;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <label for="program">Program of Interest:</label>
+        <select id="program" name="program">
+          <option value="none"></option>
+          <option value="computer-science">BSc Computer Science</option>
+          <option value="ui-ux-design">BA UI/UX Design</option>
+          <option value="business">BBA Business</option>
+          <option value="education-technology">BEd Education Technology</option>
+        </select>
+        <label for="reason">Reason for Interest:</label>
+        <input type="text" id="reason" name="reason" required>
+        <button type="submit" class="button" style="margin-top: 15px;">Apply Now</button>
+      </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Western University. Simple website for teaching.</p>
+        <a href="Contact.html">Contact Us</a> | <a href="Admissions.html">Apply Now</a>
+    </footer>
+</body>
+</html>
